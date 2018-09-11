@@ -23,4 +23,16 @@ REC,12345,31,20.00
 TOTAL,2,120.00 
 ```
 
+Usually such problem is solved via simple parsing and communicating parsing errors as exceptions:
+
+```java
+
+try {
+	ParsedFile result = parseFile(content);
+} catch (ParsingException ex) {
+	ParsingError err = ex.getError();
+	// handle error or write it to log
+}
+
+```
 
