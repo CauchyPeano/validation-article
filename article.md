@@ -1,5 +1,9 @@
 # Using Validation in Vavr
 
+or 
+
+# Validation in Java: your next friend after java.util.Optional (?)
+
 Vavr is simple yet powerful library intended to make your life better and also importantly make your code better!
 
 There are seemingly simple classes which could make great positive impact to your application. One of them is Validation class, which I want to explain in this article.
@@ -34,5 +38,31 @@ try {
 	// handle error or write it to log
 }
 
+public ParsedFile parseFile(String content) {
+	
+}
+
 ```
+
+
+## Validation combine
+
+(example from Vavr)
+
+
+## Controlling flow direction
+
+### Short-circtuiting
+
+(example when failing on first error)
+
+
+### Aggregating
+
+(example when failing with all errors)
+
+
+## Validation parsers! 
+
+
 
